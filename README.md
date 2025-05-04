@@ -1,3 +1,35 @@
+# TokenVk Project
+
+This project implements a simple ERC-20 like token called "Bootcamp" with the symbol "OGC". The token includes basic functionality for transfers, approvals, and balance checking.
+
+## Features
+
+- Token name: Bootcamp
+- Token symbol: OGC
+- Decimals: 18
+- Basic token functions:
+  - `balanceOf`: Check the balance of a specific address
+  - `transfer`: Transfer tokens to another address
+  - `approve`: Approve another address to spend tokens on your behalf
+  - `transferFrom`: Transfer tokens from one address to another (with approval)
+- Additional utility functions:
+  - `getNumber` and `setNumber`: Simple getter/setter functions for testing
+  - `ping`: Simple function to check if the contract is alive
+
+## Getting Started
+
+### Prerequisites
+
+- [Foundry](https://book.getfoundry.sh/getting-started/installation)
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone <git@github.com:marlonandersonsilva/tokenweb3.git>
+cd blochchainDeploy
+```
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
